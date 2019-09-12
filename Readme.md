@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг» [![Build status][travis-image]][travis-url]
 
 * Студент: [Sorokin Dmitriy](https://up.htmlacademy.ru/javascript/18/user/565341).
-* Наставник: `Неизвестно`.
+* Наставник: `Без наставника`.
 
 ---
 
