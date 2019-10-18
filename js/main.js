@@ -52,14 +52,12 @@ var photos = [
 function getRandomNumber(min, max) {
 
   return Math.floor(Math.random() * (max + 1 - min) + min);
-
 }
 
 // Возвращает Случайное число из массива
 function getRandomArrayNumber(array) {
 
   return array[getRandomNumber(0, array.length - 1)];
-
 }
 
 // Возвращает массив с случайной длиной
@@ -104,7 +102,6 @@ function createOffers() {
   }
 
   return offerList;
-
 }
 
 // Определение типа жилья
@@ -117,7 +114,6 @@ function getTipes(obj) {
   };
 
   return allTipes[obj];
-
 }
 
 // Удаляет класс .map--faded
@@ -148,7 +144,6 @@ function mapPinLocation(element) {
   }
 
   return fragmentPin;
-
 }
 
 var mapPinBox = document.querySelector('.map__pins');
@@ -191,7 +186,6 @@ function createCard(element) {
   popupItem.querySelector('.popup__photos > img').src = element.offer.photos;
 
   return popupItem;
-
 }
 
 var cardMap = createCard(offerList[0]);
